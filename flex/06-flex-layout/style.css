@@ -51,12 +51,14 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
-  margin-bottom: 16px;
+  margin: 0 0 16px 0;
 }
 
 button {
   font-family: Roboto, sans-serif;
   border: none;
   border-radius: 10px;
-  background: #eee;;
+  background: #eee;
+  padding: 10px 15px;
+  margin: 0 10px;
 }
