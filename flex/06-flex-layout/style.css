@@ -32,8 +32,12 @@ li, a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: auto;
-  margin-bottom: auto;
+  /* originally I used <width-top/bottom: auto>
+  which seemed to do the exact same thing as the
+  commands below...<justify-content: center> without 
+  <flex 1> did not work...haven't figured out why...yet */
+  flex: 1;
+  justify-content: center;
 }
 
 .footer {
